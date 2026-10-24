@@ -4,7 +4,7 @@ A Mainsail theme for the **Flashforge AD5X** running [Zmod](https://github.com/g
 
 | File | What it is |
 | :--- | :--- |
-| `theme/sidebar-logo.svg` | Logo at the top of the sidebar (Zmod's) |
+| `theme/sidebar-logo.svg` | Logo at the top of the sidebar |
 | `theme/sidebar-background.png` | Sidebar background |
 | `theme/main-background.png` | Page background |
 | `theme/custom.css` | Zmod's dialog button fix; Zmod also checks for this file on boot |
