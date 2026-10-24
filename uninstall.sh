@@ -18,7 +18,10 @@ elif [ -e "${BACKUP_DIR}/.theme" ] || [ -L "${BACKUP_DIR}/.theme" ]; then
     echo "zmod_ad5x_theme: restored the previous theme"
 else
     # Zmod would copy its default back on the next boot; do it now.
-    cp -a /opt/config/mod/.shell/.theme "$MOD_DATA/"
+    # Newer Zmod keeps its scripts in /usr/data/zmod, older versions in mod/.
+    ZSHELL=/usr/data/zmod/zmod/.shell
+    [ -d "${ZSHELL}/.theme" ] || ZSHELL=/opt/config/mod/.shell
+    cp -a "${ZSHELL}/.theme" "$MOD_DATA/"
     echo "zmod_ad5x_theme: restored Zmod's default theme"
 fi
 

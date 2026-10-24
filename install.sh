@@ -11,8 +11,11 @@ THEME="${MOD_DATA}/.theme"
 TARGET="plugins/zmod_ad5x_theme/theme"
 BACKUP_DIR="${MOD_DATA}/zmod_ad5x_theme_backup"
 
-# Zmod's printer settings; AD5X is 1 only on the AD5X.
-. /opt/config/mod/.shell/0.sh
+# Zmod's printer settings; AD5X is 1 only on the AD5X. Newer Zmod keeps its
+# scripts in /usr/data/zmod, older versions in mod/.
+ZSHELL=/usr/data/zmod/zmod/.shell
+[ -f "${ZSHELL}/0.sh" ] || ZSHELL=/opt/config/mod/.shell
+. "${ZSHELL}/0.sh"
 if [ "${AD5X}" != 1 ]; then
     echo "zmod_ad5x_theme: this theme is for the AD5X only; nothing changed."
     echo "zmod_ad5x_theme: run DISABLE_PLUGIN name=zmod_ad5x_theme to remove it."
