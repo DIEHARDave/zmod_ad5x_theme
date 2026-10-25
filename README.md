@@ -1,5 +1,7 @@
 # zmod_ad5x_theme
 
+> **Moved to [FF_Themes](https://github.com/DIEHARDave/FF_Themes).** This repository is archived. FF_Themes has the same AD5X theme, plus the Creator 5 Pro and Kiln OS ones, in one plugin that picks the right theme for the printer. To switch: `DISABLE_PLUGIN name=zmod_ad5x_theme`, add FF_Themes' `[update_manager ff_themes]` block to `user.moonraker.conf`, then `ENABLE_PLUGIN name=ff_themes`.
+
 A Mainsail theme for the **Flashforge AD5X** running [Zmod](https://github.com/ghzserg/zmod), installed as a plugin and kept up to date through the update manager.
 
 | File | What it is |
