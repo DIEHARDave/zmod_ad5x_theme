@@ -4,8 +4,8 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="3411.5854"
-   viewBox="0 0 3411.5854 1875"
+   width="4233.2783"
+   viewBox="0 0 4233.2783 1875"
    enable-background="new 0 0 1875 1875"
    xml:space="preserve"
    sodipodi:docname="sidebar-logo.svg"
@@ -42,7 +42,7 @@
      gradientTransform="scale(1.5521212,0.64427959)"
      x1="258423.06"
      y1="373215.5"
-     x2="267918.58"
+     x2="267918.59"
      y2="153033.5"><stop
        offset="0"
        stop-color="rgb(243, 138, 19)"
@@ -56,7 +56,7 @@
      gradientUnits="userSpaceOnUse"
      x1="1004.37"
      y1="1450.13"
-     x2="1041.31"
+     x2="1041.3101"
      y2="593.565"><stop
        class="stop0"
        offset="0"
@@ -70,21 +70,22 @@
        id="stop2-4" /></linearGradient></defs><sodipodi:namedview
    id="namedview9"
    pagecolor="#505050"
-   bordercolor="#eeeeee"
+   bordercolor="#a8a8a8"
    borderopacity="1"
-   inkscape:showpageshadow="0"
+   inkscape:showpageshadow="true"
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.63413333"
-   inkscape:cx="2154.9096"
-   inkscape:cy="1062.0795"
+   inkscape:zoom="0.22419999"
+   inkscape:cx="2214.5407"
+   inkscape:cy="1389.3845"
    inkscape:window-width="2560"
    inkscape:window-height="1369"
    inkscape:window-x="-8"
    inkscape:window-y="1432"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+   inkscape:current-layer="Layer_1"
+   showgrid="false" />
 <path
    fill="#000000"
    opacity="1"
@@ -142,7 +143,7 @@
 <g
    style="display:block"
    id="g9"
-   transform="matrix(0.74211324,0,0,0.91545598,1821.5565,562.39018)"><path
+   transform="matrix(1.2756404,0,0,1.5923949,1639.6135,-700.30569)"><path
      fill="#f7f6f6"
      d="m 1221.04,753.377 c 49.53,-6.686 103.81,13.401 144,42.32 159.52,114.78 130.45,421.883 -66.86,480.363 -14.6,4.33 -29.85,6.49 -45.14,8.58 -51.31,4.36 -104.27,-16.83 -143.55,-48.77 -52.43,-42.63 -93.77,-112.74 -100.64,-179.8 -7.77,-77.131 10.06,-156.293 60.93,-216.367 41.93,-49.532 86.27,-79.542 151.26,-86.326 z m 23.2,412.393 c 31.87,-3.41 61.02,-19.5 80.89,-44.64 31.57,-39.79 38.23,-84.69 29.88,-133.689 -6.37,-37.433 -25.23,-71.595 -55.49,-95.007 -18.83,-14.721 -42.16,-22.506 -66.06,-22.044 -115,10.998 -144.89,167.23 -79.28,246.65 23.14,28.02 52.22,49.96 90.06,48.73 z"
      id="path2-2" /><path
